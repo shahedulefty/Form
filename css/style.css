@@ -1,0 +1,69 @@
+/* Global CSS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+*{
+	margin:0;
+}
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	background:#eee;
+	background:url(../img/cereals-5377267.jpg) no-repeat center;
+}
+a{
+	color:#333; 
+	text-decoration: none;
+}
+a:hover{
+	color:orange;
+}
+/* Form Section CSS*/
+.login-form{
+	width:350px;
+	margin:100px auto 0px; 
+	background:#fff;
+	padding:20px; 
+}
+.user-avatar{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: -73px auto 10px;
+    text-align: center;
+    border-radius: 100%;
+}
+.fa-user-o{
+	font-size:50px;
+	line-height: 100px 
+}
+.fa-user{
+	font-size:50px;
+	line-height:48px; 
+}
+.login-form h3{
+	text-align:center;
+}
+.form-group{
+	padding:5px;
+	line-height:23px;  
+}
+.form-control{
+    width: 93%;
+    padding: 5px
+}
+.btn-primary{
+    font-size: 16px;
+    background-color: #1a63b9;
+    padding: 8px 35px;
+    color: #ffffff;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	background-color: orange;
+}
+.login-form ul{
+	padding:0px; 
+}
+.login-form ul li{
+	list-style: none;
+}
